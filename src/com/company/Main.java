@@ -25,5 +25,15 @@ public class Main {
 
         System.out.println(oper.salarioOperario());
 
+        Vendedor vend = new Vendedor();
+        vend.setValorVendas(7500.0);
+        vend.setComissao(20);
+        vend.setSalarioBase(2500.0);
+        vend.setImposto(7);
+
+        System.out.println(vend.salarioVendedor());
+
+
+
     }
 }
